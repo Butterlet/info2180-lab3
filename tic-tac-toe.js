@@ -113,7 +113,7 @@ function checkwin(y,val){
         allEqual(psbs[7])?win=true:console.log("No win yet, keep playing!")
     }
     if(win){
-       document.getElementById("status").innerHTML="Congratulations "+val.toUpperCase()+" is the Winner!!"
+       document.getElementById("status").innerHTML="Congratulations! "+val.toUpperCase()+" is the Winner!"
        document.getElementById("status").classList.add("you-won");
     }
 }
